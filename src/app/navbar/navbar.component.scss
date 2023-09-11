@@ -1,0 +1,30 @@
+.nav-bar{
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #fff;
+    background-color: #193b60;
+}
+
+.left{
+    font-weight: 700;
+    font-size: 30px;
+    padding: .75rem;
+}
+
+.right{
+    display: flex;
+    gap: 1rem;
+    font-size: 18px;
+
+    .item{
+        cursor: pointer;
+        padding: 1.2rem;
+    }
+    .item:hover{
+        background-color: #235081;
+        font-weight: 500;
+    }
+}
