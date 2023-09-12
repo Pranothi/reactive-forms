@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { NestedComponent } from './nested/nested.component';
 import { BasicComponent } from './basic/basic.component';
+import { ArrayComponent } from './array/array.component';
 
 const routes: Routes = [
   {
@@ -11,7 +12,12 @@ const routes: Routes = [
   {
     path: 'nested',
     component: NestedComponent
+  },
+  {
+    path: 'array',
+    component: ArrayComponent
   }
+  
 ];
 
 @NgModule({

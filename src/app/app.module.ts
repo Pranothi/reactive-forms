@@ -11,6 +11,7 @@ import {MatInputModule} from '@angular/material/input';
 import { NestedComponent } from './nested/nested.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { ArrayComponent } from './array/array.component';
+import {MatButtonModule} from '@angular/material/button';
 @NgModule({
   declarations: [
     AppComponent,
@@ -25,7 +26,8 @@ import { ArrayComponent } from './array/array.component';
     ReactiveFormsModule,
     BrowserAnimationsModule,
     MatFormFieldModule,
-    MatInputModule
+    MatInputModule,
+    MatButtonModule
   ],
   providers: [],
   bootstrap: [AppComponent]
